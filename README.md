@@ -1,4 +1,4 @@
-#DESD PROJECTS
+# DESD PROJECTS
 
 This repository contains the projects made by my group for the Digital Electronics Systems Design course
 Using an Artix-7 Basys-3 FPGA
@@ -23,25 +23,33 @@ The controller is then used to play a little game made by the MIT. The main aims
 the creation of a Finited State Machine, the ability to respect the timings of the controller module and 
 to be able to comprehend and correctly use the AXI4 protocol. 
 
-##"Audio controller"
+## "Audio controller"
 
 The project consists in an audio controller with the jstk2 module and an I2S audio module.
 The controller is made by many blocks:
 
 -edge detector
+
 -debouncer
+
 -LED controller
+
 -mute controller
+
 -balance controller
+
 -volume controller
+
 -moving average filter
 
 The aims of the project are: 
 
 -to be able to use the AXI4 protocol for multiple blocks 
+
 -to be able to handle slack and get correct timings
+
 -to create more complex blocks and use basic DSP techniques
+
 -to use block design 
+
 -to create correct tests to validate our designs
-
-
