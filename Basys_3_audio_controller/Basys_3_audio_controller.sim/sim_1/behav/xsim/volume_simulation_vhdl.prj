@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Basys_3_audio_controller.srcs/sources_1/new/Volume.vhd" \
+"../../../../Basys_3_audio_controller.srcs/sim_1/new/volume_sim.vhd" \
+
+# Do not sort compile order
+nosort

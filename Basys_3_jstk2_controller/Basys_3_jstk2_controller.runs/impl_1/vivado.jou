@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 19 09:47:05 2023
+# Process ID: 269072
+# Current directory: /home/matteo/Scrivania/UNI/Digital Electronics System Design/spaceship/spaceship.runs/impl_1
+# Command line: vivado -log space_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source space_wrapper.tcl -notrace
+# Log file: /home/matteo/Scrivania/UNI/Digital Electronics System Design/spaceship/spaceship.runs/impl_1/space_wrapper.vdi
+# Journal file: /home/matteo/Scrivania/UNI/Digital Electronics System Design/spaceship/spaceship.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source space_wrapper.tcl -notrace

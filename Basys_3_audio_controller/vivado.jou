@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat May 11 12:30:48 2024
+# Process ID: 2892
+# Current directory: C:/Users/bossi/OneDrive/Documents/DESD projects/Basys_3_audio_controller
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18304 C:\Users\bossi\OneDrive\Documents\DESD projects\Basys_3_audio_controller\Basys_3_audio_controller.xpr
+# Log file: C:/Users/bossi/OneDrive/Documents/DESD projects/Basys_3_audio_controller/vivado.log
+# Journal file: C:/Users/bossi/OneDrive/Documents/DESD projects/Basys_3_audio_controller\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/bossi/OneDrive/Documents/DESD projects/Basys_3_audio_controller/Basys_3_audio_controller.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source volume_simulation.tcl
+close_sim

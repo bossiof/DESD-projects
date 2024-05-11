@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../KittCarv2.srcs/sources_1/imports/sources_1/ClockDivider.vhd" \
+"../../../../KittCarv2.srcs/sources_1/imports/sources_1/KittCarV1.vhd" \
+"../../../../KittCarv2.srcs/sources_1/imports/sources_1/PWM.vhd" \
+"../../../../KittCarv2.srcs/sources_1/imports/sources_1/PWMWrapper.vhd" \
+"../../../../KittCarv2.srcs/sources_1/imports/sources_1/Wrapper.vhd" \
+"../../../../KittCarv2.srcs/sources_1/imports/Desktop/pwm_wrapper_simulation.vhd" \
+"../../../../KittCarv2.srcs/sources_1/imports/Desktop/TestKittCar.vhd" \
+"../../../../KittCarv2.srcs/sim_1/imports/sim_1/SimTB.vhd" \
+"../../../../KittCarv2.srcs/sim_1/imports/Telegram Desktop/TestClockDivider.vhd" \
+
+# Do not sort compile order
+nosort

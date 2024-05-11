@@ -1,0 +1,377 @@
+-- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-- --------------------------------------------------------------------------------
+-- Tool Version: Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
+-- Date        : Tue May 23 11:44:21 2023
+-- Host        : pop-os running 64-bit Pop!_OS 22.04 LTS
+-- Command     : write_vhdl -force -mode funcsim
+--               /home/fede/Desktop/Polimi/DesdProject/Lab3/lab3/lab3.gen/sources_1/bd/design_1/ip/design_1_mute_1_0/design_1_mute_1_0_sim_netlist.vhdl
+-- Design      : design_1_mute_1_0
+-- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
+--               synthesized. This netlist cannot be used for SDF annotated simulation.
+-- Device      : xc7a35tcpg236-1
+-- --------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+library UNISIM;
+use UNISIM.VCOMPONENTS.ALL;
+entity design_1_mute_1_0_mute is
+  port (
+    m_axis_tlast : out STD_LOGIC;
+    m_axis_tvalid : out STD_LOGIC;
+    m_axis_tdata : out STD_LOGIC_VECTOR ( 23 downto 0 );
+    s_axis_tlast : in STD_LOGIC;
+    s_axis_tvalid : in STD_LOGIC;
+    s_axis_tdata : in STD_LOGIC_VECTOR ( 23 downto 0 );
+    mute_enable : in STD_LOGIC;
+    clk : in STD_LOGIC
+  );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_mute_1_0_mute : entity is "mute";
+end design_1_mute_1_0_mute;
+
+architecture STRUCTURE of design_1_mute_1_0_mute is
+  signal mute : STD_LOGIC;
+  signal mute_i_1_n_0 : STD_LOGIC;
+  attribute SOFT_HLUTNM : string;
+  attribute SOFT_HLUTNM of \m_axis_tdata[0]_INST_0\ : label is "soft_lutpair12";
+  attribute SOFT_HLUTNM of \m_axis_tdata[10]_INST_0\ : label is "soft_lutpair5";
+  attribute SOFT_HLUTNM of \m_axis_tdata[11]_INST_0\ : label is "soft_lutpair6";
+  attribute SOFT_HLUTNM of \m_axis_tdata[12]_INST_0\ : label is "soft_lutpair6";
+  attribute SOFT_HLUTNM of \m_axis_tdata[13]_INST_0\ : label is "soft_lutpair7";
+  attribute SOFT_HLUTNM of \m_axis_tdata[14]_INST_0\ : label is "soft_lutpair7";
+  attribute SOFT_HLUTNM of \m_axis_tdata[15]_INST_0\ : label is "soft_lutpair8";
+  attribute SOFT_HLUTNM of \m_axis_tdata[16]_INST_0\ : label is "soft_lutpair8";
+  attribute SOFT_HLUTNM of \m_axis_tdata[17]_INST_0\ : label is "soft_lutpair9";
+  attribute SOFT_HLUTNM of \m_axis_tdata[18]_INST_0\ : label is "soft_lutpair9";
+  attribute SOFT_HLUTNM of \m_axis_tdata[19]_INST_0\ : label is "soft_lutpair10";
+  attribute SOFT_HLUTNM of \m_axis_tdata[1]_INST_0\ : label is "soft_lutpair1";
+  attribute SOFT_HLUTNM of \m_axis_tdata[20]_INST_0\ : label is "soft_lutpair10";
+  attribute SOFT_HLUTNM of \m_axis_tdata[21]_INST_0\ : label is "soft_lutpair11";
+  attribute SOFT_HLUTNM of \m_axis_tdata[22]_INST_0\ : label is "soft_lutpair11";
+  attribute SOFT_HLUTNM of \m_axis_tdata[23]_INST_0\ : label is "soft_lutpair12";
+  attribute SOFT_HLUTNM of \m_axis_tdata[2]_INST_0\ : label is "soft_lutpair1";
+  attribute SOFT_HLUTNM of \m_axis_tdata[3]_INST_0\ : label is "soft_lutpair2";
+  attribute SOFT_HLUTNM of \m_axis_tdata[4]_INST_0\ : label is "soft_lutpair2";
+  attribute SOFT_HLUTNM of \m_axis_tdata[5]_INST_0\ : label is "soft_lutpair3";
+  attribute SOFT_HLUTNM of \m_axis_tdata[6]_INST_0\ : label is "soft_lutpair3";
+  attribute SOFT_HLUTNM of \m_axis_tdata[7]_INST_0\ : label is "soft_lutpair4";
+  attribute SOFT_HLUTNM of \m_axis_tdata[8]_INST_0\ : label is "soft_lutpair4";
+  attribute SOFT_HLUTNM of \m_axis_tdata[9]_INST_0\ : label is "soft_lutpair5";
+  attribute SOFT_HLUTNM of m_axis_tlast_INST_0 : label is "soft_lutpair0";
+  attribute SOFT_HLUTNM of m_axis_tvalid_INST_0 : label is "soft_lutpair0";
+begin
+\m_axis_tdata[0]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(0),
+      I1 => mute,
+      O => m_axis_tdata(0)
+    );
+\m_axis_tdata[10]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(10),
+      I1 => mute,
+      O => m_axis_tdata(10)
+    );
+\m_axis_tdata[11]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(11),
+      I1 => mute,
+      O => m_axis_tdata(11)
+    );
+\m_axis_tdata[12]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(12),
+      I1 => mute,
+      O => m_axis_tdata(12)
+    );
+\m_axis_tdata[13]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(13),
+      I1 => mute,
+      O => m_axis_tdata(13)
+    );
+\m_axis_tdata[14]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(14),
+      I1 => mute,
+      O => m_axis_tdata(14)
+    );
+\m_axis_tdata[15]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(15),
+      I1 => mute,
+      O => m_axis_tdata(15)
+    );
+\m_axis_tdata[16]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(16),
+      I1 => mute,
+      O => m_axis_tdata(16)
+    );
+\m_axis_tdata[17]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(17),
+      I1 => mute,
+      O => m_axis_tdata(17)
+    );
+\m_axis_tdata[18]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(18),
+      I1 => mute,
+      O => m_axis_tdata(18)
+    );
+\m_axis_tdata[19]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(19),
+      I1 => mute,
+      O => m_axis_tdata(19)
+    );
+\m_axis_tdata[1]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(1),
+      I1 => mute,
+      O => m_axis_tdata(1)
+    );
+\m_axis_tdata[20]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(20),
+      I1 => mute,
+      O => m_axis_tdata(20)
+    );
+\m_axis_tdata[21]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(21),
+      I1 => mute,
+      O => m_axis_tdata(21)
+    );
+\m_axis_tdata[22]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(22),
+      I1 => mute,
+      O => m_axis_tdata(22)
+    );
+\m_axis_tdata[23]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(23),
+      I1 => mute,
+      O => m_axis_tdata(23)
+    );
+\m_axis_tdata[2]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(2),
+      I1 => mute,
+      O => m_axis_tdata(2)
+    );
+\m_axis_tdata[3]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(3),
+      I1 => mute,
+      O => m_axis_tdata(3)
+    );
+\m_axis_tdata[4]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(4),
+      I1 => mute,
+      O => m_axis_tdata(4)
+    );
+\m_axis_tdata[5]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(5),
+      I1 => mute,
+      O => m_axis_tdata(5)
+    );
+\m_axis_tdata[6]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(6),
+      I1 => mute,
+      O => m_axis_tdata(6)
+    );
+\m_axis_tdata[7]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(7),
+      I1 => mute,
+      O => m_axis_tdata(7)
+    );
+\m_axis_tdata[8]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(8),
+      I1 => mute,
+      O => m_axis_tdata(8)
+    );
+\m_axis_tdata[9]_INST_0\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tdata(9),
+      I1 => mute,
+      O => m_axis_tdata(9)
+    );
+m_axis_tlast_INST_0: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tlast,
+      I1 => mute,
+      O => m_axis_tlast
+    );
+m_axis_tvalid_INST_0: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => s_axis_tvalid,
+      I1 => mute,
+      O => m_axis_tvalid
+    );
+mute_i_1: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"6"
+    )
+        port map (
+      I0 => mute_enable,
+      I1 => mute,
+      O => mute_i_1_n_0
+    );
+mute_reg: unisim.vcomponents.FDRE
+    generic map(
+      INIT => '0'
+    )
+        port map (
+      C => clk,
+      CE => '1',
+      D => mute_i_1_n_0,
+      Q => mute,
+      R => '0'
+    );
+end STRUCTURE;
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+library UNISIM;
+use UNISIM.VCOMPONENTS.ALL;
+entity design_1_mute_1_0 is
+  port (
+    m_axis_tvalid : out STD_LOGIC;
+    m_axis_tdata : out STD_LOGIC_VECTOR ( 23 downto 0 );
+    m_axis_tlast : out STD_LOGIC;
+    m_axis_tready : in STD_LOGIC;
+    clk : in STD_LOGIC;
+    s_axis_tvalid : in STD_LOGIC;
+    s_axis_tdata : in STD_LOGIC_VECTOR ( 23 downto 0 );
+    s_axis_tlast : in STD_LOGIC;
+    s_axis_tready : out STD_LOGIC;
+    mute_enable : in STD_LOGIC
+  );
+  attribute NotValidForBitStream : boolean;
+  attribute NotValidForBitStream of design_1_mute_1_0 : entity is true;
+  attribute CHECK_LICENSE_TYPE : string;
+  attribute CHECK_LICENSE_TYPE of design_1_mute_1_0 : entity is "design_1_mute_1_0,mute,{}";
+  attribute downgradeipidentifiedwarnings : string;
+  attribute downgradeipidentifiedwarnings of design_1_mute_1_0 : entity is "yes";
+  attribute ip_definition_source : string;
+  attribute ip_definition_source of design_1_mute_1_0 : entity is "module_ref";
+  attribute x_core_info : string;
+  attribute x_core_info of design_1_mute_1_0 : entity is "mute,Vivado 2020.2";
+end design_1_mute_1_0;
+
+architecture STRUCTURE of design_1_mute_1_0 is
+  signal \^m_axis_tready\ : STD_LOGIC;
+  attribute x_interface_info : string;
+  attribute x_interface_info of clk : signal is "xilinx.com:signal:clock:1.0 clk CLK";
+  attribute x_interface_parameter : string;
+  attribute x_interface_parameter of clk : signal is "XIL_INTERFACENAME clk, ASSOCIATED_BUSIF m_axis:s_axis, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN /clk_wiz_0_clk_out1, INSERT_VIP 0";
+  attribute x_interface_info of m_axis_tlast : signal is "xilinx.com:interface:axis:1.0 m_axis TLAST";
+  attribute x_interface_info of m_axis_tready : signal is "xilinx.com:interface:axis:1.0 m_axis TREADY";
+  attribute x_interface_info of m_axis_tvalid : signal is "xilinx.com:interface:axis:1.0 m_axis TVALID";
+  attribute x_interface_parameter of m_axis_tvalid : signal is "XIL_INTERFACENAME m_axis, TDATA_NUM_BYTES 3, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 100000000, PHASE 0.0, CLK_DOMAIN /clk_wiz_0_clk_out1, LAYERED_METADATA undef, INSERT_VIP 0";
+  attribute x_interface_info of s_axis_tlast : signal is "xilinx.com:interface:axis:1.0 s_axis TLAST";
+  attribute x_interface_info of s_axis_tready : signal is "xilinx.com:interface:axis:1.0 s_axis TREADY";
+  attribute x_interface_info of s_axis_tvalid : signal is "xilinx.com:interface:axis:1.0 s_axis TVALID";
+  attribute x_interface_parameter of s_axis_tvalid : signal is "XIL_INTERFACENAME s_axis, TDATA_NUM_BYTES 3, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 100000000, PHASE 0.0, CLK_DOMAIN /clk_wiz_0_clk_out1, LAYERED_METADATA undef, INSERT_VIP 0";
+  attribute x_interface_info of m_axis_tdata : signal is "xilinx.com:interface:axis:1.0 m_axis TDATA";
+  attribute x_interface_info of s_axis_tdata : signal is "xilinx.com:interface:axis:1.0 s_axis TDATA";
+begin
+  \^m_axis_tready\ <= m_axis_tready;
+  s_axis_tready <= \^m_axis_tready\;
+U0: entity work.design_1_mute_1_0_mute
+     port map (
+      clk => clk,
+      m_axis_tdata(23 downto 0) => m_axis_tdata(23 downto 0),
+      m_axis_tlast => m_axis_tlast,
+      m_axis_tvalid => m_axis_tvalid,
+      mute_enable => mute_enable,
+      s_axis_tdata(23 downto 0) => s_axis_tdata(23 downto 0),
+      s_axis_tlast => s_axis_tlast,
+      s_axis_tvalid => s_axis_tvalid
+    );
+end STRUCTURE;

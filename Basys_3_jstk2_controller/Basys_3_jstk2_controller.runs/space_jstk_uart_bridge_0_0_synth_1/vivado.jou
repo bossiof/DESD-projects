@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 19 09:46:22 2023
+# Process ID: 268480
+# Current directory: /home/matteo/Scrivania/UNI/Digital Electronics System Design/spaceship/spaceship.runs/space_jstk_uart_bridge_0_0_synth_1
+# Command line: vivado -log space_jstk_uart_bridge_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source space_jstk_uart_bridge_0_0.tcl
+# Log file: /home/matteo/Scrivania/UNI/Digital Electronics System Design/spaceship/spaceship.runs/space_jstk_uart_bridge_0_0_synth_1/space_jstk_uart_bridge_0_0.vds
+# Journal file: /home/matteo/Scrivania/UNI/Digital Electronics System Design/spaceship/spaceship.runs/space_jstk_uart_bridge_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source space_jstk_uart_bridge_0_0.tcl -notrace

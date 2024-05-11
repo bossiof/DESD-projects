@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/bossi/OneDrive/Documents/DESD projects/Basys_3_audio_controller/Basys_3_audio_controller.srcs/sources_1/new/Volume.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'volume'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/bossi/OneDrive/Documents/DESD projects/Basys_3_audio_controller/Basys_3_audio_controller.srcs/sim_1/new/volume_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'volume_simulation'

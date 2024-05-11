@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr 17 14:35:54 2023
+# Process ID: 54300
+# Current directory: /home/fede/Desktop/spaceship/spaceship.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/fede/Desktop/spaceship/spaceship.sim/sim_1/behav/xsim/xsim.dir/digilent_jstk2_simulation_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/fede/Desktop/spaceship/spaceship.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/fede/Desktop/spaceship/spaceship.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/fede/Desktop/spaceship/spaceship.sim/sim_1/behav/xsim/xsim.dir/digilent_jstk2_simulation_behav/webtalk/xsim_webtalk.tcl -notrace
